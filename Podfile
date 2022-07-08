@@ -7,13 +7,6 @@ target 'small-project-iOS' do
 
   # Pods for small-project-iOS
 
-  target 'small-project-iOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
-  target 'small-project-iOSUITests' do
-    # Pods for testing
-  end
-
+pod "youtube-ios-player-helper"
 end
